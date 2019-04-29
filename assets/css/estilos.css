@@ -1,0 +1,60 @@
+/*#redes i{
+  height: 20px !important;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  float: right;
+  margin: 2px;
+}*/
+
+
+#nav{
+background-color: orange;
+position: relative;
+font-size: 25px;
+margin:20px;
+margin-left: 0px;
+margin-right: 0px;
+
+
+
+}
+a {
+ margin: 5%;
+ color: black !important;
+
+}
+
+i{
+margin: 2% !important;
+color: black !important;
+margin-bottom: 50%;
+}
+#body{
+  background-color:#7E0C39;
+}
+
+#contenedor{
+  margin: 10px;
+  border-radius: 10px  ;
+  box-shadow: 0 0 8px #D0D0D0;
+  max-width: 90%;
+  margin: auto;
+  background-color: white;
+
+}
+#header{
+background-color: white;
+border-radius: 15px;
+
+}
+p{
+text-align: justify;
+
+}
+
+h2{
+  text-align: left;
+  
+}
