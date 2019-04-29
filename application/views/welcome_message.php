@@ -41,7 +41,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 					<!--	</div>-->
 						</div>
-		<nav id="nav" class="navbar navbar-light">
+		<nav id="nav" class="navbar navbar-light ">
 			<a id="color" href="" title="Enlace genérico">Inicio</a>
 			<a id="color" href="" title="Enlace genérico">Artistas</a>
 	    <a id="color" href="" title="Enlace genérico">Top 10</a>
@@ -55,13 +55,97 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<div id="contenedor">
 			<div class="row">
-				<div class="col-lg-6">
-			<h2>Tributos a THE BEATLES</h2>
+				<div class="col-lg-4 ">
+			       <h2>Tributos a THE BEATLES</h2>
 				<p>
-				The Beatles fue una banda de rock9​ inglesa activa durante la década de 1960, y reconocida como la más exitosa comercialmente y la más alabada por la crítica en la historia de la música popular y de la música rock.10​11​12​13​14​ Formada en Liverpool, estuvo constituida desde 1962 por John Lennon (guitarra rítmica, vocalista), Paul McCartney (bajo, vocalista), George Harrison (guitarra solista, vocalista) y Ringo Starr (batería, vocalista). Enraizada en el skiffle y el rock and roll de los años 1950, la banda trabajó más tarde con distintos géneros musicales, tales como rock and roll y pop de los 50's, rock pop, música beat, folk rock, rock psicodélico hasta hard rock, incorporando a menudo elementos clásicos, entre otros, de forma innovadora en sus canciones. La naturaleza de su enorme popularidad, que había emergido primeramente con la moda de la «beatlemanía», se transformó al tiempo que sus composiciones se volvieron más sofisticadas. Llegaron a ser percibidos como la encarnación de los ideales progresistas, extendiendo su influencia en las revoluciones sociales y culturales de la década de 1960.
+				The Beatles fue una banda de rock9​ inglesa activa durante la década de 1960, y reconocida como la más exitosa comercialmente y la más alabada por la crítica en la historia de la música popular y de la música rock.10​11​12​13​14​ Formada en Liverpool, estuvo constituida desde 1962 por John Lennon (guitarra rítmica, vocalista), Paul McCartney (bajo, vocalista), George Harrison (guitarra solista, vocalista) y Ringo Starr (batería, vocalista). Enraizada en el skiffle y el rock and roll de los años 1950
 				</p>
+
+
+
 				</div>
+          <div class="col-lg-4">
+            <img id="beatles" src="<?php echo base_url(); ?>assets/images/beatles.jpg." alt=""></img>
+          </div>
+          <div class="col-lg-4">
+            <form id="buscador">
+                  <div class="input-group col-lg-10">
+                    <span class="input-group-addon"><i class="fas fa-search"></i></span>
+                    <input id="" type="text" class="form-control" name="email" placeholder="Buscador">
+
+                  </div>
+            </form>
+
+
+                <div class="from-group col-lg-8 col-lg-offset-1">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-file">Canciones</i></span>
+                  <select class="form-control col-lg-8" id="sel1" placeholder="Additional Info">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                </div>
+                <div class="col-lg-8 col-lg-offset-1">
+                  <label>Años</label>
+                </div>
+                <div class="col-lg-8 col-lg-offset-1">
+                  <select class="form-control col-lg-8" id="sel1" placeholder="Additional Info">
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2018</option>
+                  </select>
+                </div>
+
+
+          </div>
+          <div id="textarea" class="input-group col-lg-6 col-lg-offset-6">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <textarea class="form-control"  rows="4" cols="20" placeholder="Comentarios"></textarea>
+          </div>
+          <div class="col-lg-4">
+            <img id="beatles" src="<?php echo base_url(); ?>assets/images/descarga.jpg." alt=""></img>
+          </div>
+
+          <div class="col-lg-4 ">
+  			       <h2>Navegacion de los planetas</h2>
+      				<p>
+      				Etimológicamente, la palabra "planeta" proviene del latín planeta, que a su vez deriva del griego πλανήτης ('planētēs' que en griego tiene dos acepciones: «vagabundo» y «errante»). Esto se debe a que en la antigüedad, siguiendo la teoría geocéntrica de Claudio Ptolomeo (siglo I y/o II), se creía que en torno a la Tierra giraban (además del Sol y la Luna) las luminarias/estrellas, entre las que se diferenciaban las luminarias (estrellas)      				</p>
+  				</div>
+          <div class=" col-lg-4">
+          <div class="from-group col-lg-8 col-lg-offset-1">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-file">Cantida de plantetas</i></span>
+            <select class="form-control col-lg-8" id="sel1" placeholder="Additional Info">
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+          </div>
+          <div class="col-lg-8 col-lg-offset-1">
+            <label>Planetas</label>
+          </div>
+          <div class="col-lg-8 col-lg-offset-1">
+            <select class="form-control col-lg-8" id="sel1" placeholder="Additional Info">
+              <option>Jupiter</option>
+              <option>Marte</option>
+              <option>Saturno</option>
+              <option>Venus</option>
+              <option>Etc</option>
+            </select>
+          </div>
+        </div>
+
+
 			</div>
+      <div id="textarea" class="input-group col-lg-6 col-lg-offset-6">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+        <textarea class="form-control"  rows="4" cols="20" placeholder="Comentarios"></textarea>
+      </div>
 		</div>
   </body>
 </html>

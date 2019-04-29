@@ -17,13 +17,29 @@ margin:20px;
 margin-left: 0px;
 margin-right: 0px;
 
+}
 
+#beatles{
+width: 80%;
+height: 60%;
+border-radius: 20px;
+margin: 2.5%;
+}
+#planeta{
 
 }
+
+#buscador{
+  margin: 15px;
+}
+
 a {
  margin: 5%;
  color: black !important;
 
+}
+#textarea{
+  margin: 25px;
 }
 
 i{
@@ -42,6 +58,9 @@ margin-bottom: 50%;
   max-width: 90%;
   margin: auto;
   background-color: white;
+  border: 20px;
+
+
 
 }
 #header{
@@ -51,10 +70,20 @@ border-radius: 15px;
 }
 p{
 text-align: justify;
+margin: 2%;
+margin-left: 15px !important;
 
 }
 
 h2{
   text-align: left;
-  
+
+}
+@media all and (max-width:900) and(min-width:350px) {
+  #nav {
+
+  	display: flex;
+  	justify-content: space-around;
+  	align-items: center;
+  }
 }
