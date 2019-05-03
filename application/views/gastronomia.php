@@ -38,8 +38,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</div>
 
 		</header>
-    <div class="row">
-      <div id="primario" class="large-4 columns">
+    <div class="">
+      <div id="primario" class="large-6 columns">
           <div class="large-6 columns">
              <div class="callout">
                <h4>Búsqueda Avanzada</h4>
@@ -100,13 +100,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                </form>
              </div>
            </div>
-
+           </div>
            <div class="large-6 columns">
              <h2>La mejor cocina</h2>
           </div>
-
-           </div>
           </div>
+
+
 		     </div>
   </body>
 </html>
