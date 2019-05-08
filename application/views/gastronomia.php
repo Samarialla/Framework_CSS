@@ -48,8 +48,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                  <div class="row column">
                    <label>Por nombre:
                      <input type="text" name="name" >
-                     <hr>
                    </label>
+                    <ul><a><i class="step fi-social-facebook size-36"></i>Inicio</a></ul>
+                    <hr>
+                    <ul><a><i class="step fi-social-instagram size-36"></i>Mi plato Perfecto</a></ul>
+                    <hr>
+                    <ul><a><i class="step fi-social-twitter size-36"></i>Mis recetas</a></ul>
+                    <hr>
+                    <ul><a><i class="step fi-social-twitter size-36"></i>Mis Favoritos</a></ul>
                  </div>
                  <div  class="row">
                   <div class="large-4 columns">
@@ -87,6 +93,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
          <div id="secundario" class="large-8 columns">
            <h2>Cocinando</h2>
+           <h5>21 de Agostp 2019</h5>
            <div class="">
              <img id="img" src="<?php echo base_url(); ?>assets/images/image1.jpg" width="1000" height="10000" class="" alt="">
            </div>
@@ -99,11 +106,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <label>Comentarios
                   <textarea  placeholder="Comentarios" rows="4" cols="20"></textarea>
                 </label>
+                <button type="button" class="button "> Publicar <i class="fas fa-pencil-alt"></i></button>
             </div>
             <hr>
             <?php // IDEA: aqui empieza el jugo  ?>
             <h3>Mejores Jugo naturales</h3>
-            <h4>21 de septiembre 2019</h4>
+            <h5>21 de septiembre 2019</h5>
 
             <div class="">
               <img id="img" src="<?php echo base_url(); ?>assets/images/jugo.jpg" width="1000" height="10000" class="" alt="">
@@ -120,6 +128,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <label>Comentarios
                   <textarea  placeholder="Comentarios" rows="4" cols="20"> </textarea>
                 </label>
+                <button type="button" class="button ">Publicar <i class="fas fa-pencil-alt"></i></button>
             </div>
         </div>
 

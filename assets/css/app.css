@@ -4,7 +4,7 @@
   box-shadow: 0 0 8px #D0D0D0;
   max-width: 40%;
   margin: auto;
-  background-color: #C488CE;
+  background-color: #A995C1 ;
   border: 20px;
   opacity: 0.9;
 }
@@ -29,7 +29,7 @@ header {
 #secundario {
   background-color: white;
   width: 80% !important;
-  border-radius: 15px;
+
 }
 
 #ul {
@@ -64,6 +64,17 @@ label {
 }
 h4{
   text-align: right;
+}
+hr{
+  border: solid pink 1px;
+}
+button{
+  display: flex;
+  float: right;
+  background-color: violet;
+}
+h5{
+  color: violet;
 }
 
 @media all and (max-width: 900px) {
