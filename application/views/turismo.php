@@ -27,6 +27,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
   </head>
   <body id="body" class="container">
+    <header>
+      <div class="row">
+        <div class="col s2">
+          <img id="logo" src="<?php echo base_url(); ?>assets/images/logo.png" class="responsive-img"/>
+        </div>
+        <div class="col s6 offset-s4">
+          <a id="boton" class="waves-effect waves-light btn-small"><i class="fas fa-home"></i>Inicio</a>
+          <a id="boton" class="waves-effect waves-light btn-small"><i class="fas fa-location-arrow"></i>Estuve aqui</a>
+          <a id="boton" class="waves-effect waves-light btn-small"><i class="fas fa-place-of-worship"></i>Mejores Viajes</a>
+          <a id="boton" class="waves-effect waves-light btn-small"><i class="fab fa-angellist"></i>Recomentaciones</a>
+
+
+        </div>
+      </div>
+    </header>
 
   </body>
 </html>

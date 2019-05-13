@@ -4,4 +4,23 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-color: white;
+
+
+}
+#logo{
+width: 350px;
+height: 150px !important;
+border-radius: 25px;
+margin: 10%;
+
+
+}
+
+#boton{
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  margin-top: 5%;
+
 }
