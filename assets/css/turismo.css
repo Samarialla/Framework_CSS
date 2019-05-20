@@ -1,6 +1,6 @@
 body {
 	background-image: url("http://localhost/Framework_CSS/assets/images/montana.jpg");
-	background-position: center;
+/*	background-position: center;*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -18,7 +18,11 @@ body {
 
 	background-color: #0376F9;
 	color: white;
-	margin-top: 150px !important;
+	margin: 0.5% !important;
+	font-size: 70%;
+	margin-top: 3% !important;
+	text-align: justify;
+
 }
 
 h4 {
@@ -38,20 +42,22 @@ h4 {
 
 #image1 {
 	height: 250px;
-	width: 100%;
+	width: 90%;
+
 }
 
 #image2 {
-	width: 100%;
+	width: 90%;
+
 }
 
 #image3 {
-	width: 100%;
+	width: 90%;
 	height: 550px;
 }
 
 #image4 {
-	width: 80%;
+	width: 75%;
 	height: 150px;
 }
 
@@ -67,6 +73,8 @@ h4 {
 	color: black;
 	font-size: 15px;
 	text-align: justify;
+	margin: 1%;
+	margin-top: 1%;
 }
 
 #peop {
@@ -76,7 +84,7 @@ h4 {
 #tercero {
 	background-color: white;
 	margin-left: 10px;
-  margin-top: 0.5px;
+  margin:1%;
 }
 
 #avatar {
@@ -94,5 +102,7 @@ p{
   text-align: justify;
 }
 #titulo{
-  font-size: 100%;
+  font-size: 30px;
+	margin-top: 1%;
+	margin: 2%;
 }

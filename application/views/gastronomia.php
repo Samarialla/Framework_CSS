@@ -33,7 +33,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="">
               <div id="" class="large-4 columns text-justify ">
                 <h3>Cocinando</h3>
-                <h4>La mejor cocina del mundo para esta cocina tan especial</h4>
+                <h6 class="large-8">La mejor cocina del mundo para esta cocina tan especial</h6>
               </div>
 						</div>
 
@@ -93,7 +93,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
          <div id="secundario" class="large-8 columns">
            <h2>Cocinando</h2>
-           <h5>21 de Agostp 2019</h5>
+           <h5>21 de Agosto 2019</h5>
            <div class="">
              <img id="img" src="<?php echo base_url(); ?>assets/images/image1.jpg" width="1000" height="10000" class="" alt="">
            </div>

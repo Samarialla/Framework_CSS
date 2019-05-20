@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
   </head>
-  <body id="body" class="container">
+  <body id="body" class="">
     <header>
       <div class="row">
         <div class="col l2 s4">
@@ -34,14 +34,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         </div>
         <div class="col l6 offset-l4 s6">
-          <a id="boton" class=""><i class="fas fa-home"></i>Inicio</a>
-          <a id="boton" class=""><i class="fas fa-location-arrow"></i>Estuve aqui</a>
-          <a id="boton" class=""><i class="fas fa-place-of-worship"></i>Mejores Viajes</a>
-          <a id="boton" class=""><i class="fab fa-angellist"></i>Recomentaciones</a>
+          <a id="boton" class="col l2 s6 waves-effect waves-light btn-small"><i class="fas fa-home"></i>Inicio</a>
+          <a id="boton" class="col l2 s8 waves-effect waves-light btn-small"><i class="fas fa-location-arrow"></i>Estuve aqui</a>
+          <a id="boton" class="col l2 s8 waves-effect waves-light btn-small"><i class="fas fa-place-of-worship"></i>Mejores Viajes</a>
+          <a id="boton" class="col l2 s8 waves-effect waves-light btn-small"><i class="fab fa-angellist"></i>Recomentaciones</a>
 
         </div>
-          <div id="letra" class="col l4 s11">
-            <p id="titulo">Creando mi propio camino</p>
+          <div id="letra" class="col l4 s10">
+            <p class="col s12" id="titulo">Creando mi propio camino</p>
          </div>
       </div>
     </header>
@@ -88,7 +88,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
       </div>
       </div>
-      <div id="tercero" class="col l3 s8">
+      <div id="tercero" class="col l3 s9">
         <img id="avatar" src="<?php echo base_url(); ?>assets/images/calles.jpg" class="responsive-img circle center-align"/>
           <h6>Perfil de autor</h6>
           <hr>
