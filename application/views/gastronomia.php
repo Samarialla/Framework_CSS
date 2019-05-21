@@ -109,7 +109,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <button type="button" class="button "> Publicar <i class="fas fa-pencil-alt"></i></button>
             </div>
             <hr>
+          </div>
+
             <?php // IDEA: aqui empieza el jugo  ?>
+            <div id="secundario" class="large-8 columns large-offset-4">
             <h3>Mejores Jugo naturales</h3>
             <h5>21 de septiembre 2019</h5>
 
@@ -131,6 +134,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <button type="button" class="button ">Publicar <i class="fas fa-pencil-alt"></i></button>
             </div>
         </div>
+        <div>
 
 		    </div>
   </body>

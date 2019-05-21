@@ -7,7 +7,9 @@
   float: right;
   margin: 2px;
 }*/
-
+hr{
+  border-color: black;
+}
 
 #nav{
 background-color: orange;
@@ -18,15 +20,31 @@ margin-left: 0px;
 margin-right: 0px;
 
 }
+ul{
+  text-align: justify;
+  font-size: 15px;
+}
 
 #beatles{
-width: 80%;
-height: 60%;
+width: 95%;
+height: 200px;
 border-radius: 20px;
 margin: 2.5%;
 }
 #planeta{
-
+  width: 95%;
+  height: 200px;
+  border-radius: 20px;
+  margin: 1%;
+}
+p{
+  margin: 0px;
+}
+#user{
+  font-size: 600%;
+  text-align: center;
+  margin-top: 7%;
+  margin: 5% !important;
 }
 
 #buscador{
@@ -68,8 +86,9 @@ border-radius: 15px;
 }
 p{
 text-align: justify;
-margin: 2%;
+margin: 3%;
 margin-left: 15px !important;
+margin-left: 10px;
 
 }
 
