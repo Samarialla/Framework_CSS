@@ -34,7 +34,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         </div>
         <div class="col l6 offset-l4 s6">
-          <a id="boton" class="col l2 s6 waves-effect waves-light btn-small"><i class="fas fa-home"></i>Inicio</a>
+          <a id="boton" class="col l2 s6 waves-effect waves-light btn-small"  href="<?php echo base_url(); ?>welcome"><i class="fas fa-home"></i>Inicio</a>
           <a id="boton" class="col l2 s8 waves-effect waves-light btn-small"><i class="fas fa-location-arrow"></i>Estuve aqui</a>
           <a id="boton" class="col l2 s8 waves-effect waves-light btn-small"><i class="fas fa-place-of-worship"></i>Mejores Viajes</a>
           <a id="boton" class="col l2 s8 waves-effect waves-light btn-small"><i class="fab fa-angellist"></i>Recomentaciones</a>
