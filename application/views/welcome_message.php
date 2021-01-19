@@ -31,7 +31,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
       <div class="row">
         <div class="col-lg-4">
-          <img src="<?php echo base_url(); ?>assets/images/logo.png" width="100" height="100" class="" alt="">
+          <img src="/assets/images/logo.png" width="100" height="100" class="" alt="">
         </div>
         <div id="redes" class="col-lg-4 col-lg-offset-4 col-xs-offset-2" style="font-size: 5.5rem;">
           <i class="fab fa-facebook-square "></i>
