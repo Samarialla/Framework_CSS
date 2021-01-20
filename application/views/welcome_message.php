@@ -44,8 +44,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
       </div>
       <nav id="nav" class="navbar navbar-light">
         <a id="color" class="" href="" title="Enlace genérico">Inicio</a>
-        <a id="color" class="" href="<?php echo base_url(); ?>Turismo" title="Enlace genérico">Turismo</a>
-        <a id="color" class="" href="<?php echo base_url(); ?>Gastronomia" title="Enlace genérico">Gastronomia</a>
+        <a id="color" class="" href="<?php echo base_url();?>Turismo" title="Enlace genérico">Turismo</a>
+        <a id="color" class="" href="<?php echo base_url();?>Gastronomia" title="Enlace genérico">Gastronomia</a>
         <a id="color" class="" href="" title="Enlace genérico">Grupos</a>
         <a id="color" class="" href="" title="Enlace genérico">Letras</a>
         <a id="color" class="" href="" title="Enlace genérico">Acerca de</a>
